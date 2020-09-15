@@ -3,7 +3,7 @@ import { render } from "react-dom";
 
 import { Link, Router } from "@reach/router";
 import Details from "./Details";
-import SearchParams from "./searchParams";
+import SearchParams from "./SearchParams";
 import ThemeContext from "./ThemeContext";
 const App = () => {
   const themeHook = useState("peru");
